@@ -32,3 +32,54 @@ nav a{
     font-size: 120%;
     margin-right: 1cm;
 }
+
+.dropbtn{
+    padding-bottom: 16px;
+    padding-top: 16px;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    margin-top: 16px;
+    width: 90%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-left: 1px;
+    border-left-style: solid;
+    border-left-color: black;
+    border-right: 1px;
+    border-right-style: solid;
+    border-right-color: black;
+}
+
+.dropdown-content a {
+    color: rgb(28, 28, 28);
+    padding: 12px  12px;
+    text-decoration: none;
+    display: block;
+    font-size: 90%;
+}
+
+/* Farve skift af dropdown links på hover */
+.dropdown-content a:hover {
+    color: rgb(206, 70, 143);
+    width:10%;
+}
+    
+    /* Vis dropdown menuen med hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    
+
+    
