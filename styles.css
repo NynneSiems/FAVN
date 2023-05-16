@@ -1,6 +1,6 @@
 *{
     padding: 0px;
-    margin: 0;
+    margin: 0; 
 }
 
 a{
@@ -8,12 +8,23 @@ a{
     color: black;
 }
 
+h1{
+    text-align: center;;
+    font-family: 'Playfair Display';
+    font-size: 300%;
+    font-weight: lighter;
+}
+
+p{
+    font-family:'Montserrat', sans-serif;
+}
+
 header{
     display: flex;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: black;
-    padding: 1.5%;
+    padding-left: 0.5%;
 }
 
 nav{
@@ -22,14 +33,14 @@ nav{
     align-items: center;
     margin-top: 0.5cm;
     margin-bottom: 0.5cm;
-    margin-left: 37%;
+    margin-left: 47%;
 }
 
 nav a{
     text-decoration: none;
     color: black;
     font-family:'Montserrat', sans-serif;
-    font-size: 120%;
+    font-size: 110%;
     margin-right: 1cm;
 }
 
@@ -72,14 +83,51 @@ nav a{
 
 /* Farve skift af dropdown links på hover */
 .dropdown-content a:hover {
-    color: rgb(206, 70, 143);
+    color: rgb(245,204,219);
     width:10%;
 }
     
     /* Vis dropdown menuen med hover */
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content{
     display: block;
 }
-    
 
+main{
+    background-color: rgb(255, 255, 255);
+}
+
+.lyserød_baggrundsfarve{
+    background-color: rgb(245,204,219);
+    padding:5%;
+}
+
+.lyserød_baggrundsfarve p{
+    font-size: 200%;
+    align-items:flex-end;
+    color:rgb(201, 89,134);
+}
+
+.title h1{
+    color: rgb(173,121, 63);
+    padding-top: 5%;
+}
+
+.grå_baggrundsfarve{
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: center;
     
+}
+
+.title p{
+    color: rgb(173,121, 63);
+    font-size: 250%;
+    text-align: center;
+}
+
+#lysebrun_baggrundsfave{
+    background-color: rgb(222, 208, 191);
+}
