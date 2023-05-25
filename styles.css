@@ -414,15 +414,11 @@ footer ul li{
 
     .mobil_krystalkort{
         display:block;
-        width: 80%;
+        width: 100%:
         display: flex;
         flex-direction: column; 
         background-color: rgb(245, 245, 245);
         justify-content: space-around;
-        padding-bottom: 2.5%;
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-top: 2.5%;
     }
 
     .krystalkort_grå_baggrundsfarve{
