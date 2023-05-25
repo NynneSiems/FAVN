@@ -254,11 +254,12 @@ footer ul li{
     padding-bottom: 2%;
 }
 
+/*ENGLEKORT ARTIEKL*/
 .tre_kort{
     display: flex;
     background-color: rgb(245, 245, 245);
     justify-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-bottom: 10%;
     padding-top: 5%;
     padding-left: 2.5%;
@@ -268,7 +269,7 @@ footer ul li{
 .tre_kort section{
     background-color: rgb(173,121, 63);
     padding-bottom: 4.5%;
-    width: 21.9%;
+    width: 29.26%;
 }
 
 .tre_kort section p{
@@ -277,6 +278,35 @@ footer ul li{
     text-align: center;
 }
 
+.tre_kort img{
+    width: 100%;
+}
+
+.tre_kort_mobil{
+    padding-bottom: 10%;
+    background-color:rgb(245, 245, 245);
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+} 
+
+.tre_kort_mobil section{
+    background-color: rgb(173,121, 63);
+}
+
+.tre_kort_mobil p{
+    color: rgb(222, 208, 191);
+    font-size: 100%;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+}
+
+.tre_kort_mobil section img{
+    width: 100%;
+}
+
+/*KRYSTAL ARTIEKL*/
 .krystalartikel_lyserød_baggrundsfarve{
     background-color: rgb(245,204,219);
     padding:2.5%;
@@ -323,6 +353,14 @@ footer ul li{
     color:rgb(201, 89,134)
 }
 
+.mobil_krystalkort{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    background-color: rgb(245, 245, 245);
+    justify-content: space-around;
+}
+
 .mobil_krystalkort section{
     padding-bottom: 4.5%;
     background-color: rgb(245,204,219);
@@ -334,10 +372,12 @@ footer ul li{
 
 .mobil_krystalkort h3{
     color: rgb(201, 89,134);
+    font-size: 120%;
 }
 
 .mobil_krystalkort p{
-    color:rgb(201, 89,134)
+    color:rgb(201, 89,134);
+    font-size: 100%;
 }
 
 .pink_baggrundsfarve{
@@ -361,6 +401,28 @@ footer ul li{
     align-items: center;
     color:rgb(173,121, 63)
 }
+/*TAROTKORT ARTIEKL*/
+.mørkebrun_baggrundsfarve{
+    background-color: rgb(173,121, 63);
+}
+
+.mørkebrun_baggrundsfarve p{
+    font-size: 120%;
+    align-items: center;
+    color:rgb(222, 208, 191);
+}
+
+.grå_baggrundsfarve{
+    background-color: rgb(245, 245, 245)
+}
+
+.grå_baggrundsfarve p{
+    font-size: 120%;
+    align-items: center;
+    color: rgb(173,121, 63);
+}
+
+
 /*Mobil LAYOUT*/
 @media screen and (max-width:768px){ 
     #mobillogo{
@@ -375,6 +437,7 @@ footer ul li{
     header{
         align-items: center;
     }
+
     #mobilheader_burgermenu img{
         display: block;
         margin: 20%;
@@ -405,6 +468,29 @@ footer ul li{
 
     .forside_lyserød_baggrundsfarve p{
         font-size: 80%;
+    }
+
+
+    footer div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer div section{
+        height: 50%;
+        width: 100%;
+    }
+
+    footer div section p{
+        padding: 0%;
+    }
+
+    .tre_kort{
+        display: none;
+    }
+
+    .tre_kort_mobil{
+        display: block;
     }
 
     #mobil_lysebrun{
@@ -445,11 +531,6 @@ footer ul li{
 
     .mobil_krystalkort{
         display:block;
-        width: 100%:
-        display: flex;
-        flex-direction: column; 
-        background-color: rgb(245, 245, 245);
-        justify-content: space-around;
     }
 
     .krystalkort_grå_baggrundsfarve{
@@ -464,19 +545,12 @@ footer ul li{
         font-size: 80%;
     }
 
-
-    footer div{
-        display: flex;
-        flex-wrap: wrap;
+    .mørkebrun_baggrundsfarve{
+        font-size: 80%;
     }
-
-    footer div section{
-        height: 50%;
-        width: 100%;
-    }
-
-    footer div section p{
-        padding: 0%;
+    
+    .grå_baggrundsfarve{
+        font-size: 80%;
     }
 }
 
@@ -502,6 +576,11 @@ footer ul li{
     #mobil_lysebrun{
         display: none;
     }
+
+    .tre_kort_mobil{
+        display: none;
+    }
+   
 
     .mobil_grå_baggrundsfarve{
         display: none;
