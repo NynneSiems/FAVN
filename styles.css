@@ -49,6 +49,12 @@ p{
     font-size: 125%;
 }
 
+li{
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    color: rgb(173,121, 63);
+    font-size: 120%;
+}
 
 header{
     display: flex;
@@ -254,6 +260,16 @@ footer ul li{
     padding-bottom: 2%;
 }
 
+.illustration{
+    background-color: rgb(245, 245, 245);
+    padding-top: 2.5%;
+    padding-bottom:2.5%;
+}
+
+.illustration img{
+    width: 100%;
+}
+
 /*ENGLEKORT ARTIEKL*/
 .tre_kort{
     display: flex;
@@ -413,7 +429,8 @@ footer ul li{
 }
 
 .grå_baggrundsfarve{
-    background-color: rgb(245, 245, 245)
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 2.5%;
 }
 
 .grå_baggrundsfarve p{
@@ -520,6 +537,7 @@ footer ul li{
     p{
         padding-left: 5%;
         padding-right: 5%;
+        font-size: 100%;
     }
 
     .forside_lyserød_baggrundsfarve p{
