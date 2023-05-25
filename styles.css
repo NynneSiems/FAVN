@@ -422,6 +422,62 @@ footer ul li{
     color: rgb(173,121, 63);
 }
 
+.to_kort{
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.to_kort section{
+    padding-bottom: 4.5%;
+    background-color: rgb(201, 89,134);
+    width: 34.73%;
+}
+
+.to_kort section h3{
+    color: rgb(245,204,219);
+}
+
+.to_kort section p{
+    color: rgb(245,204,219);
+}
+
+.to_kort img{
+    width: 100%;
+}
+
+.to_kort_mobil{
+    padding-bottom: 10%;
+    background-color:rgb(245, 245, 245);
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+}
+
+.to_kort_mobil h3{
+    color: rgb(245,204,219);
+    font-size: 120%;
+}
+
+.to_kort_mobil p{
+    color: rgb(245,204,219);
+    font-size: 100%;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+}
+
+.to_kort_mobil section{
+    background-color: rgb(201, 89,134);
+}
+
+.to_kort_mobil section img{
+    width: 100%;
+}
+
 
 /*Mobil LAYOUT*/
 @media screen and (max-width:768px){ 
@@ -470,7 +526,6 @@ footer ul li{
         font-size: 80%;
     }
 
-
     footer div{
         display: flex;
         flex-wrap: wrap;
@@ -487,10 +542,6 @@ footer ul li{
 
     .tre_kort{
         display: none;
-    }
-
-    .tre_kort_mobil{
-        display: block;
     }
 
     #mobil_lysebrun{
@@ -552,6 +603,10 @@ footer ul li{
     .grå_baggrundsfarve{
         font-size: 80%;
     }
+
+    .to_kort{
+        display: none;
+    }
 }
 
 /*LAPTOP LAYOUT*/
@@ -588,5 +643,9 @@ footer ul li{
 
     .mobil_krystalkort{
         display:none;
+    }
+
+    .to_kort_mobil{
+        display: none;
     }
 }
