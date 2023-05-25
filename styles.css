@@ -1,6 +1,6 @@
 *{
     padding: 0px;
-    margin: 0; 
+    margin: 0px; 
 }
 
 a{
@@ -14,6 +14,25 @@ h1{
     font-family: playfair-display, serif;
     font-weight: 400;
     font-style: normal;
+    color: rgb(173,121, 63);
+    background-color: rgb(255, 255, 255);
+}
+
+h2{
+    text-align: center;
+    font-size: 200%;
+    font-family: playfair-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(173,121, 63);
+    padding: 2.5%;
+    background-color: rgb(255, 255, 255);
+}
+
+h3{
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    margin: 2.5%;
 }
 
 h4{
@@ -22,25 +41,29 @@ h4{
 
 p{
     font-family:'Montserrat', sans-serif;
+    text-align: center;
 }
 
 header{
     display: flex;
+    justify-content: space-between;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-right: 5%;
     background-color: white;
     width: 100%;
     position: sticky;
-    z-index: 999;
-    top: -10px;
+    z-index: 999px;
     box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+    box-sizing: border-box;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0.5cm;
-    margin-bottom: 0.5cm;
-    margin-left: 47%;
 }
 
 nav a{
@@ -90,25 +113,25 @@ nav a{
     display: block;
 }
 
-main{
-    background-color: rgb(255, 255, 255);
+
+video{
+    width: 100%;
 }
 
-.lyserød_baggrundsfarve{
+main{
     background-color: rgb(245,204,219);
+    overflow: hidden;
+}
+
+.forside_lyserød_baggrundsfarve{
     padding:5%;
 }
 
-.lyserød_baggrundsfarve p{
+.forside_lyserød_baggrundsfarve p{
     display: flex;
-    font-size: 200%;
+    font-size: 150%;
     align-items: center;
     color:rgb(201, 89,134);
-}
-
-.title h1{
-    color: rgb(173,121, 63);
-    padding-top: 2.5%;
 }
 
 .laptop_grå_baggrundsfarve{
@@ -120,6 +143,14 @@ main{
     justify-content: center;
 }
 
+.laptop_grå_baggrundsfarve section img{
+    width: 100%;
+}
+
+.title{
+    padding: 2.5%;
+    background-color: rgb(255, 255, 255);
+}
 .title p{
     color: rgb(173,121, 63);
     font-size: 250%;
@@ -137,13 +168,23 @@ main{
     padding-right: 2.5%;
 }
 
-#lysebrun_baggrundsfave p{
+#laptop_lysebrun section img{
+    width: 100%;
+}
+
+#laptop_lysebrun p{
     font-family:'Montserrat', sans-serif;
     font-size: 125%;
+    text-align:start;
+}
+
+#mobil_lysebrun p{
+    text-align:start;
 }
 
 footer{
     background-color: rgb(173,121, 63);
+    padding-left: 1.5%;
 }
 
 footer h4{
@@ -156,6 +197,7 @@ footer p{
     line-height: 22px;
     color: rgb(222, 208, 191);
     font-size: 80%;
+    text-align: left;
 }
 
 footer div{
@@ -201,15 +243,110 @@ footer ul li{
     font-family:'Montserrat', sans-serif;
     font-size: 80%;
     color: rgb(222, 208, 191);
+    padding-bottom: 2%;
 }
 
+.krystalartikel_lyserød_baggrundsfarve{
+    background-color: rgb(245,204,219);
+    padding:2.5%;
+}
+
+.krystalartikel_lyserød_baggrundsfarve p{
+    font-size: 120%;
+    text-align: center;
+    color:rgb(201, 89,134);
+}
+
+.krystalartikel_lyserød_baggrundsfarve h3{
+    color: rgb(201, 89,134);
+    font-size: 140%;
+    padding-top: 2.5%;
+}
+
+.krystalkort_grå_baggrundsfarve{
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.krystalkort_grå_baggrundsfarve section{
+    padding-bottom: 4.5%;
+    background-color: rgb(245,204,219);
+    width: 22.1%;
+}
+
+.krystalkort_grå_baggrundsfarve section img{
+    width: 100%;
+}
+
+.krystalkort_grå_baggrundsfarve h3{
+    color: rgb(201, 89,134);
+}
+
+.krystalkort_grå_baggrundsfarve p{
+    color:rgb(201, 89,134)
+}
+
+.mobil_krystalkort section{
+    padding-bottom: 4.5%;
+    background-color: rgb(245,204,219);
+}
+
+.mobil_krystalkort section img{
+    width: 100%;
+}
+
+.mobil_krystalkort h3{
+    color: rgb(201, 89,134);
+}
+
+.mobil_krystalkort p{
+    color:rgb(201, 89,134)
+}
+
+.pink_baggrundsfarve{
+    background-color: rgb(201, 89,134);
+    padding: 2.5%;
+}
+
+.pink_baggrundsfarve p{
+    font-size: 120%;
+    align-items: center;
+    color:rgb(245,204,219);
+}
+
+#krystalartikel_lysebrun_baggrundsfarve{
+    background-color: rgb(222, 208, 191);
+    padding: 2.5%;
+}
+
+#krystalartikel_lysebrun_baggrundsfarve p{
+    font-size: 120%;
+    align-items: center;
+    color:rgb(173,121, 63)
+}
 /*Mobil LAYOUT*/
-@media screen and (max-width:768px){
-    #mobilheader_burgermenu{
+@media screen and (max-width:768px){ 
+    #mobillogo{
         display: block;
-        margin: 8%;
-        display: flex;
-        margin-right: 80%;
+        margin: 2%;
+    }
+
+    #laptop_logo{
+        display: none;
+    }
+
+    header{
+        align-items: center;
+    }
+    #mobilheader_burgermenu img{
+        display: block;
+        margin: 20%;
     }
 
     #laptop_header{
@@ -219,13 +356,26 @@ footer ul li{
     #laptop_lysebrun{
         display: none;
     }
+
     .title{
-        font-size: 50%;
+        font-size: 65%;
+        padding: 2.5%;
+    }
+
+    h2{
+        font-size: 130%;
+        padding: 2.5%;
     }
 
     p{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .forside_lyserød_baggrundsfarve p{
         font-size: 80%;
     }
+
     #mobil_lysebrun{
         display: block;
         display: flex;
@@ -240,8 +390,12 @@ footer ul li{
     #mobil_lysebrun p{
         padding-bottom: 10%;
     }
+
+    .krystalartikel_lyserød_baggrundsfarve h3{
+        font-size: 100%;
+    }
     
-    .lyserød_baggrundsfarve p{
+    .krystalartikel_lyserød_baggrundsfarve p{
         font-size: 100%;
         padding-bottom:0%;
     }
@@ -258,6 +412,32 @@ footer ul li{
         background-color: rgb(245, 245, 245);
     }
 
+    .mobil_krystalkort{
+        display:block;
+        width: 80%;
+        display: flex;
+        flex-direction: column; 
+        background-color: rgb(245, 245, 245);
+        justify-content: space-around;
+        padding-bottom: 2.5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 2.5%;
+    }
+
+    .krystalkort_grå_baggrundsfarve{
+        display: none;
+    }
+
+    .pink_baggrundsfarve{
+        font-size: 80%;
+    }
+
+    #krystalartikel_lysebrun_baggrundsfarve{
+        font-size: 80%;
+    }
+
+
     footer div{
         display: flex;
         flex-wrap: wrap;
@@ -266,12 +446,22 @@ footer ul li{
     footer div section{
         height: 50%;
         width: 100%;
-        padding: 5%;
+    }
+
+    footer div section p{
+        padding: 0%;
     }
 }
 
 /*LAPTOP LAYOUT*/
 @media screen and (min-width:768px){
+    #mobillogo{
+        display: none;
+    }
+
+    #laptop_logo{
+        display: block;
+    }
 
     #laptop_header{
         display: block;
@@ -290,4 +480,7 @@ footer ul li{
         display: none;
     }
 
+    .mobil_krystalkort{
+        display:none;
+    }
 }
