@@ -32,7 +32,9 @@ h2{
 h3{
     font-family:'Montserrat', sans-serif;
     text-align: center;
-    margin: 2.5%;
+    color: rgb(201, 89,134);
+    font-size: 140%;
+    padding-top: 2.5%;
 }
 
 h4{
@@ -42,7 +44,11 @@ h4{
 p{
     font-family:'Montserrat', sans-serif;
     text-align: center;
+    color: rgb(201, 89,134);
+    padding: 2.5%;
+    font-size: 125%;
 }
+
 
 header{
     display: flex;
@@ -176,10 +182,12 @@ main{
     font-family:'Montserrat', sans-serif;
     font-size: 125%;
     text-align:start;
+    color: rgb(173,121, 63);
 }
 
 #mobil_lysebrun p{
     text-align:start;
+    color: rgb(173,121, 63);
 }
 
 footer{
@@ -246,13 +254,36 @@ footer ul li{
     padding-bottom: 2%;
 }
 
+.tre_kort{
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.tre_kort section{
+    background-color: rgb(173,121, 63);
+    padding-bottom: 4.5%;
+    width: 21.9%;
+}
+
+.tre_kort section p{
+    color: rgb(222, 208, 191);
+    font-size: 120%;
+    text-align: center;
+}
+
 .krystalartikel_lyserød_baggrundsfarve{
     background-color: rgb(245,204,219);
     padding:2.5%;
 }
 
 .krystalartikel_lyserød_baggrundsfarve p{
-    font-size: 120%;
+    font-size: 125%;
     text-align: center;
     color:rgb(201, 89,134);
 }
@@ -320,12 +351,12 @@ footer ul li{
     color:rgb(245,204,219);
 }
 
-#krystalartikel_lysebrun_baggrundsfarve{
+.krystalartikel_lysebrun_baggrundsfarve{
     background-color: rgb(222, 208, 191);
     padding: 2.5%;
 }
 
-#krystalartikel_lysebrun_baggrundsfarve p{
+.krystalartikel_lysebrun_baggrundsfarve p{
     font-size: 120%;
     align-items: center;
     color:rgb(173,121, 63)
@@ -429,7 +460,7 @@ footer ul li{
         font-size: 80%;
     }
 
-    #krystalartikel_lysebrun_baggrundsfarve{
+    .krystalartikel_lysebrun_baggrundsfarve{
         font-size: 80%;
     }
 
