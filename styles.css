@@ -171,21 +171,9 @@ main{
     justify-content: center;
 }
 
-#laptop_grå_baggrundsfarve div img{
-    width: 100%;
-}
-
 #laptop_grå_baggrundsfarve :hover{
     opacity: 85%;
 }
-
-#mobil_grå_baggrundsfarve{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;   
-    background-color: rgb(245, 245, 245);
-}
-
 
 #mobil_grå_baggrundsfarve :hover{
     opacity: 85%;
@@ -203,7 +191,7 @@ main{
 }
 
 #laptop_lysebrun div img{
-    width: 100%;
+    width: 20%;
 }
 
 #laptop_lysebrun :hover{
@@ -215,16 +203,6 @@ main{
     font-size: 125%;
     text-align:start;
     color: rgb(173,121, 63);
-}
-
-#mobil_lysebrun{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color:rgb(222, 208, 191);
-    justify-content: center;
-    justify-content: space-around;
-    padding: 5%;
 }
 
 #mobil_lysebrun p{
@@ -588,6 +566,7 @@ footer ul li{
 
     #forside_lyserød_baggrundsfarve p{
         font-size: 80%;
+        font-weight: bolder;
     }
 
     footer div{
@@ -602,20 +581,6 @@ footer ul li{
 
     footer div section p{
         padding: 0%;
-    }
-
-    #tre_kort{
-        display: none;
-    }
-
-    #mobil_lysebrun{
-        display: block;
-    }
-
-    #mobil_lysebrun p{
-        padding-bottom: 10%;
-        font-size: 90%;
-        text-align: start;
     }
 
     #krystalartikel_lyserød_baggrundsfarve h3{
@@ -633,6 +598,41 @@ footer ul li{
 
     #mobil_grå_baggrundsfarve{
         display: block;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: rgb(245, 245, 245);
+        justify-content: center;
+    }
+
+    #mobil_grå_baggrundsfarve div{
+        width: 100%;
+    }
+
+    #mobil_grå_baggrundsfarve div img{
+        padding-left: 20%;
+    }
+
+
+    #mobil_lysebrun{
+        display: block;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color:rgb(222, 208, 191);
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+
+    #mobil_lysebrun p{
+        padding-bottom: 10%;
+        font-size: 90%;
+        text-align: start;
+    }
+
+    .mobil_lysebrun div{
+        width: 50%;
     }
 
     .mobil_krystalkort{
@@ -660,6 +660,10 @@ footer ul li{
     }
 
     #to_kort{
+        display: none;
+    }
+
+    #tre_kort{
         display: none;
     }
 }
