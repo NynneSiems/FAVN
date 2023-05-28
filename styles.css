@@ -46,7 +46,7 @@ p{
     text-align: center;
     color: rgb(201, 89,134);
     padding: 2.5%;
-    font-size: 125%;
+    font-size: 120%;
 }
 
 li{
@@ -190,17 +190,12 @@ main{
     padding-right: 2.5%;
 }
 
-#laptop_lysebrun div img{
-    width: 20%;
-}
-
 #laptop_lysebrun :hover{
     opacity: 85%;
 }
 
 #laptop_lysebrun p{
     font-family:'Montserrat', sans-serif;
-    font-size: 125%;
     text-align:start;
     color: rgb(173,121, 63);
 }
@@ -309,9 +304,8 @@ footer ul li{
     width: 29.26%;
 }
 
-#tre_kort div p{
+#tre_kort p{
     color: rgb(222, 208, 191);
-    font-size: 120%;
     text-align: center;
 }
 
@@ -321,7 +315,6 @@ footer ul li{
 
 #tre_kort_mobil{
     padding-bottom: 10%;
-
     background-color: rgb(245, 245, 245);
     width: 100%;
     display: flex;
@@ -333,9 +326,8 @@ footer ul li{
     background-color: rgb(152, 90, 20);
 }
 
-#tre_kort_mobil div p{
+#tre_kort_mobil p{
     color: rgb(222, 208, 191);
-    font-size: 100%;
     padding-top: 2.5%;
     padding-bottom: 5%;
 }
@@ -352,18 +344,15 @@ footer ul li{
 }
 
 #krystalartikel_lyserød_baggrundsfarve p{
-    font-size: 125%;
     text-align: center;
     color:rgb(201, 89,134);
 }
 
 #krystalartikel_lyserød_baggrundsfarve h3{
     color: rgb(201, 89,134);
-    font-size: 140%;
-    padding-top: 2.5%;
 }
 
-.krystalkort_grå_baggrundsfarve{
+#krystalkort_grå_baggrundsfarve{
     display: flex;
     background-color: rgb(245, 245, 245);
     justify-content: center;
@@ -374,25 +363,25 @@ footer ul li{
     padding-right: 2.5%;
 }
 
-.krystalkort_grå_baggrundsfarve section{
+#krystalkort_grå_baggrundsfarve section{
     padding-bottom: 4.5%;
     background-color: rgb(245,204,219);
     width: 22.1%;
 }
 
-.krystalkort_grå_baggrundsfarve section img{
+#krystalkort_grå_baggrundsfarve section img{
     width: 100%;
 }
 
-.krystalkort_grå_baggrundsfarve h3{
+#krystalkort_grå_baggrundsfarve h3{
     color: rgb(201, 89,134);
 }
 
-.krystalkort_grå_baggrundsfarve p{
+#krystalkort_grå_baggrundsfarve p{
     color:rgb(201, 89,134)
 }
 
-.mobil_krystalkort{
+#mobil_krystalkort{
     width: 100%;
     display: flex;
     flex-direction: column; 
@@ -400,23 +389,21 @@ footer ul li{
     justify-content: space-around;
 }
 
-.mobil_krystalkort section{
+#mobil_krystalkort section{
     padding-bottom: 4.5%;
     background-color: rgb(245,204,219);
 }
 
-.mobil_krystalkort section img{
+#mobil_krystalkort section img{
     width: 100%;
 }
 
-.mobil_krystalkort h3{
+#mobil_krystalkort h3{
     color: rgb(201, 89,134);
-    font-size: 120%;
 }
 
-.mobil_krystalkort p{
+#mobil_krystalkort p{
     color:rgb(201, 89,134);
-    font-size: 100%;
 }
 
 .pink_baggrundsfarve{
@@ -425,7 +412,6 @@ footer ul li{
 }
 
 .pink_baggrundsfarve p{
-    font-size: 120%;
     align-items: center;
     color:rgb(245,204,219);
 }
@@ -436,18 +422,16 @@ footer ul li{
 }
 
 .artikel_lysebrun_baggrundsfarve p{
-    font-size: 120%;
     align-items: center;
     color:rgb(173,121, 63)
 }
 
                     /*TAROTKORT ARTIEKL*/
-#mørkebrun_baggrundsfarve{
+.mørkebrun_baggrundsfarve{
     background-color: rgb(173,121, 63);
 }
 
-#mørkebrun_baggrundsfarve p{
-    font-size: 120%;
+.mørkebrun_baggrundsfarve p{
     align-items: center;
     color:rgb(222, 208, 191);
 }
@@ -458,7 +442,6 @@ footer ul li{
 }
 
 .grå_baggrundsfarve p{
-    font-size: 120%;
     align-items: center;
     color: rgb(173,121, 63);
 }
@@ -501,12 +484,10 @@ footer ul li{
 
 #to_kort_mobil h3{
     color: rgb(245,204,219);
-    font-size: 120%;
 }
 
 #to_kort_mobil p{
     color: rgb(245,204,219);
-    font-size: 100%;
     padding-top: 2.5%;
     padding-bottom: 5%;
 }
@@ -558,14 +539,17 @@ footer ul li{
         padding: 2.5%;
     }
 
+    h3{
+        font-size: 125%;
+    }
+
     p{
         padding-left: 5%;
         padding-right: 5%;
-        font-size: 100%;
     }
 
     #forside_lyserød_baggrundsfarve p{
-        font-size: 80%;
+        font-size: 100%;
         font-weight: bolder;
     }
 
@@ -584,11 +568,11 @@ footer ul li{
     }
 
     #krystalartikel_lyserød_baggrundsfarve h3{
-        font-size: 100%;
+        padding-top: 5%;
     }
     
     #krystalartikel_lyserød_baggrundsfarve p{
-        font-size: 100%;
+        font-size: 120%;
         padding-bottom:0%;
     }
 
@@ -627,38 +611,26 @@ footer ul li{
 
     #mobil_lysebrun p{
         padding-bottom: 10%;
-        font-size: 90%;
+        font-size: 120%;
         text-align: start;
     }
 
-    .mobil_lysebrun div{
+    #mobil_lysebrun div{
         width: 50%;
     }
 
-    .mobil_krystalkort{
+    #mobil_krystalkort{
         display:block;
     }
 
-    .krystalkort_grå_baggrundsfarve{
+    #krystalkort_grå_baggrundsfarve{
         display: none;
     }
 
-    #pink_baggrundsfarve{
-        font-size: 80%;
-    }
-
-    .artikel_lysebrun_baggrundsfarve{
-        font-size: 80%;
-    }
-
     #mørkebrun_baggrundsfarve{
-        font-size: 80%;
+        font-size: 100%;
     }
     
-    .grå_baggrundsfarve{
-        font-size: 80%;
-    }
-
     #to_kort{
         display: none;
     }
@@ -699,7 +671,7 @@ footer ul li{
         display: none;
     }
 
-    .mobil_krystalkort{
+    #mobil_krystalkort{
         display:none;
     }
 
